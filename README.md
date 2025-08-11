@@ -1,16 +1,35 @@
-## Hi there 👋
+What is Git and why use it?
+Git is a distributed version control system that helps track changes in source code during software development. It allows collaboration, rollback to previous versions, and better code management.
 
-<!--
-**vardhan749/vardhan749** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+How do you push code to GitHub?
+Stage changes: git add .
+Commit: git commit -m "Message"
+Push: git push origin branch-name
 
-Here are some ideas to get you started:
+What is GitHub Pages?
+A free hosting service by GitHub to publish static websites directly from a repository.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Difference between static and dynamic websites?
+Static: Same content for all users, no server-side processing (HTML/CSS/JS only).
+Dynamic: Content changes based on user interaction or database (PHP, Node.js, etc.).
+
+How do you revert commits in Git?
+git revert <commit-id> → Creates a new commit that undoes the changes.
+git reset --hard <commit-id> → Moves branch to a previous state (dangerous, removes history).
+
+What is branching in Git?
+Creating a separate line of development from the main codebase to work on features independently.
+
+Explain pull requests.
+A way to propose changes to a repository. Developers review, discuss, and merge code changes into the main branch.
+
+How to resolve merge conflicts?
+Open the conflicting file(s).
+Edit to keep correct changes.
+Stage the file(s) and commit.
+
+How to host a website for free?
+Use GitHub Pages, Netlify, or Vercel to deploy static sites for free.
+
+What is continuous deployment?
+Automatically deploying changes to production after passing tests, without manual approval.
